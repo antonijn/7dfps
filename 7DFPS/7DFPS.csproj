@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AA3965DC-34ED-4109-8F09-B85D19C66098}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DFPS</RootNamespace>
+    <AssemblyName>7DFPS</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Pencil.Gaming">
+      <HintPath>..\..\..\..\Downloads\Pencil.Gaming-master\Pencil.Gaming-master\Pencil.Gaming\bin\Compatibility - GLFW2\Pencil.Gaming.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\AmmoCrate.cs" />
+    <Compile Include="src\BillBoard.cs" />
+    <Compile Include="src\Block.cs" />
+    <Compile Include="src\Buffer2D.cs" />
+    <Compile Include="src\ButterKnife.cs" />
+    <Compile Include="src\DefaultPistol.cs" />
+    <Compile Include="src\Door.cs" />
+    <Compile Include="src\DroppedWeapon.cs" />
+    <Compile Include="src\Enemy.cs" />
+    <Compile Include="src\Explosion.cs" />
+    <Compile Include="src\Grenade.cs" />
+    <Compile Include="src\HealthPack.cs" />
+    <Compile Include="src\Gun.cs" />
+    <Compile Include="src\InventoryItem.cs" />
+    <Compile Include="src\InventoryStack.cs" />
+    <Compile Include="src\Program.cs" />
+    <Compile Include="src\MathUtils3D.cs" />
+    <Compile Include="src\Projectile.cs" />
+    <Compile Include="src\Rifle.cs" />
+    <Compile Include="src\SemiAuto.cs" />
+    <Compile Include="src\Sounds.cs" />
+    <Compile Include="src\TextureTools.cs" />
+    <Compile Include="src\Tuple.cs" />
+    <Compile Include="src\Wall.cs" />
+    <Compile Include="src\Weapon.cs" />
+    <Compile Include="src\GameState.cs" />
+    <Compile Include="src\MainGameState.cs" />
+    <Compile Include="src\MenuState.cs" />
+    <Compile Include="src\UIElement.cs" />
+    <Compile Include="src\Button.cs" />
+    <Compile Include="src\MultiplayerClient.cs" />
+    <Compile Include="src\Message.cs" />
+    <Compile Include="src\Player.cs" />
+    <Compile Include="src\ClientSideMainClass.cs" />
+    <Compile Include="src\ItemID.cs" />
+    <Compile Include="src\ServerRequestState.cs" />
+    <Compile Include="src\TextBox.cs" />
+    <Compile Include="src\Label.cs" />
+    <Compile Include="src\Server.cs" />
+    <Compile Include="src\CheckPoint.cs" />
+    <Compile Include="src\DeathState.cs" />
+    <Compile Include="src\PlotScreen.cs" />
+    <Compile Include="src\AreYouSure.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <EmbeddedResource Include="texture.png">
+      <LogicalName>texture.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shoot1.wav">
+      <LogicalName>shoot1.wav</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level1.gif">
+      <LogicalName>level1.gif</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pickup_weapon.wav">
+      <LogicalName>pickup_weapon.wav</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="font.png">
+      <LogicalName>font.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shoot3.wav">
+      <LogicalName>shoot3.wav</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shoot2.wav">
+      <LogicalName>shoot2.wav</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="butter.wav">
+      <LogicalName>butter.wav</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grenade.wav">
+      <LogicalName>grenade.wav</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pickup_crate.wav">
+      <LogicalName>pickup_crate.wav</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reload.wav">
+      <LogicalName>reload.wav</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="char_plot.wav">
+      <LogicalName>char_plot.wav</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level2.gif">
+      <LogicalName>level2.gif</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level3.gif">
+      <LogicalName>level3.gif</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="game.txt" />
+    <None Include="launch_mac_linux.sh">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+  </ItemGroup>
+</Project>

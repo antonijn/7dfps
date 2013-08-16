@@ -1,0 +1,36 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="7DFPS\src\MainGameState.cs">
+    <Files>
+      <File FileName="7DFPS\src\MultiplayerClient.cs" Line="150" Column="22" />
+      <File FileName="7DFPS\src\Message.cs" Line="31" Column="8" />
+      <File FileName="7DFPS\src\MainGameState.cs" Line="4" Column="19" />
+      <File FileName="7DFPS\src\Wall.cs" Line="45" Column="31" />
+      <File FileName="7DFPS\src\Player.cs" Line="91" Column="5" />
+      <File FileName="7DFPS\src\Sounds.cs" Line="22" Column="1" />
+      <File FileName="7DFPS\src\Program.cs" Line="1" Column="1" />
+      <File FileName="7DFPS\src\Gun.cs" Line="1" Column="1" />
+      <File FileName="7DFPS\src\MenuState.cs" Line="1" Column="1" />
+      <File FileName="7DFPS\src\Button.cs" Line="1" Column="1" />
+      <File FileName="7DFPS\src\UIElement.cs" Line="1" Column="1" />
+      <File FileName="7DFPS\src\ServerRequestState.cs" Line="1" Column="1" />
+      <File FileName="7DFPS\src\TextBox.cs" Line="30" Column="17" />
+      <File FileName="7DFPS\src\Label.cs" Line="1" Column="1" />
+      <File FileName="7DFPS\src\BillBoard.cs" Line="1" Column="1" />
+      <File FileName="7DFPS\src\HealthPack.cs" Line="1" Column="1" />
+      <File FileName="7DFPS\src\Server.cs" Line="310" Column="59" />
+      <File FileName="Server\Main.cs" Line="24" Column="19" />
+      <File FileName="7DFPS\src\AmmoCrate.cs" Line="1" Column="1" />
+      <File FileName="7DFPS\src\Buffer2D.cs" Line="1" Column="1" />
+      <File FileName="7DFPS\src\Grenade.cs" Line="42" Column="7" />
+      <File FileName="7DFPS\src\DroppedWeapon.cs" Line="22" Column="64" />
+      <File FileName="7DFPS\src\TextureTools.cs" Line="48" Column="122" />
+      <File FileName="7DFPS\src\AreYouSure.cs" Line="31" Column="4" />
+      <File FileName="7DFPS\src\Enemy.cs" Line="58" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
