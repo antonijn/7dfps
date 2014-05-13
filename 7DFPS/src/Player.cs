@@ -87,7 +87,7 @@ namespace DFPS {
 			}
 
 			if (!Game.IsMultiplayer && Health <= 0f) {
-//				Game.Game.CurrentGameState = new DeathState(Game);
+				Game.Game.CurrentGameState = new DeathState(Game);
 			}
 
 			InventoryItem iItem = Inventory [CurrentInventorySlot];
