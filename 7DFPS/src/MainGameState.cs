@@ -76,7 +76,7 @@ namespace DFPS {
 				HealthPacks.Clear();
 				Projectiles.Clear();
 				DroppedWeapons.Clear();
-				Texture2D tex = TextureTools.LoadTexture("level" + level + ".gif", new Rectanglei(0, 0, 64, 64));
+				Texture2D tex = TextureTools.LoadTexture(IsServer, "level" + level + ".gif", new Rectanglei(0, 0, 64, 64));
 				BlockGrid = new Block[tex.Width, tex.Height];
 				WorldWidth = tex.Width;
 				WorldHeight = tex.Height;
